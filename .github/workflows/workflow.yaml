@@ -2,7 +2,7 @@ Name:
     Test workflow
 On:
   Push 
-   -branches: Master
+   branches: [Master]
 
 
 steps:
