@@ -1,7 +1,7 @@
 Name:
     Test workflow
 On:
-  Push 
+  Push:
    branches: [Master]
 
 
