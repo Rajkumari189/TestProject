@@ -1,10 +1,11 @@
 Name:
     Test workflow
 On:
-  Push request
+  Push 
    -branches: Master
 
 
 steps:
-   run workflow.html
+  -Name: run workflow.html
+    run: workflow.html
       
